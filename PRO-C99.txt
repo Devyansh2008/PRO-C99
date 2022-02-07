@@ -1,0 +1,10 @@
+>>> import os
+>>> import shutil
+>>> import time
+>>> s="C://Users/Ashish/OneDrive/Desktop/f1"
+>>> s="C://Users/Ashish/OneDrive/Desktop/f1/drive.txt"
+>>> d="C://Users/Ashish/OneDrive/Desktop/f2"
+>>> shuttle=shutil.move(s,d)
+>>> s="C://Users/Ashish/OneDrive/Desktop/f1"
+>>> d="C://Users/Ashish/OneDrive/Desktop/f2/drive.txt"
+>>> shuttle=shutil.copy(s,d)
